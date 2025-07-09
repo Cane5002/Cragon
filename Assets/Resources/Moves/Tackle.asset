@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43b4be179d55914dbf785b4eb155c93, type: 3}
+  m_Name: Tackle
+  m_EditorClassIdentifier: 
+  Name: Tackle
+  Cost: {fileID: 21300000, guid: 31de9c2a27dd1894c8dcaa3126c152b1, type: 3}
+  Description: '1 Dice: deal damage equal to half its value'
+  Type: 0
+  StraightConditions: []
+  MatchConditions:
+  - Size: 1
+    MustMatchNumber: 0
+    MatchNumber: 0
+    MustMatchElement: 0
+    MatchElement: 0
+    MustMatchParity: 0
+    EvenParity: 0
+  SpendDice: 1
+  AddDice: 0
+  DiceToAdd: []
+  Damage: 5
+  Heal: 0
+  Shield: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c8c96ad53c8d6e4fb4312cf89ebc30e, type: 3}
+  m_Name: WarriorDice
+  m_EditorClassIdentifier: 
+  Color: {r: 0.21568628, g: 0.21568628, b: 0.21568628, a: 1}
+  Name: Warrior
+  FaceCnt: 6
+  Faces:
+  - {fileID: 11400000, guid: afa89803f41f32f46a695c199d5f9fbd, type: 2}
+  - {fileID: 11400000, guid: 3046f69b555a2bd418177873ee5821fc, type: 2}
+  - {fileID: 11400000, guid: 624b48f181043eb40be96a8336cfce79, type: 2}
+  - {fileID: 11400000, guid: cd2e64fa71d5b1d4da55cb61943761f6, type: 2}
+  - {fileID: 11400000, guid: 932e655878ac91044b29d661bbe48da0, type: 2}
+  - {fileID: 11400000, guid: da19bdaaec8083a40a6c03329a8a6a35, type: 2}
